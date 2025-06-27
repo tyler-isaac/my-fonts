@@ -1,0 +1,252 @@
+/* fonts.css for tyler-isaac/my-fonts @ main */
+
+/* ── FORMA FAMILY ── */
+
+/* 1. Forma Regular (400) */
+@font-face {
+  font-family: 'Forma';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaCon.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Forma Medium Condensed (500) */
+@font-face {
+  font-family: 'Forma';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaMedCon.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 3. Forma Bold Condensed (700) */
+@font-face {
+  font-family: 'Forma';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaBolCon.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 4. Forma Ligature Condensed (400) */
+@font-face {
+  font-family: 'Forma';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaLigCon.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+
+/* ── FORMATA FAMILY ── */
+
+/* 5. Formata Regular (400) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 6. Formata Regular SC (400) */
+@font-face {
+  font-family: 'Formata SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-RegularSC.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 7. Formata Light (300) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 8. Formata Light SC (300) */
+@font-face {
+  font-family: 'Formata Light SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightSC.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 9. Formata Light Condensed SC (300) */
+@font-face {
+  font-family: 'Formata Light Condensed SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCnSC.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 10. Formata Light Condensed Italic (300) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCondensedItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 11. Formata Light Italic (300) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 12. Formata Light Italic SC (300) */
+@font-face {
+  font-family: 'Formata Light Italic SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightItalicSC.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 13. Formata Light Condensed Italic SC (300) */
+@font-face {
+  font-family: 'Formata Light Condensed Italic SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCnItalicSC.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 14. Formata Medium (500) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 15. Formata Medium Condensed (500) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-MediumCondensed.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 16. Formata Medium Italic (500) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 17. Formata Italic (400) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 18. Formata Italic Expert (400) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-ItalicExpert.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 19. Formata Italic SC (400) */
+@font-face {
+  font-family: 'Formata Italic SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-ItalicSC.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 20. Formata Condensed Italic SC (400) */
+@font-face {
+  font-family: 'Formata Condensed Italic SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CnItalicSC.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 21. Formata Condensed Expert (400) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedExpert.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 22. Formata Condensed SC (400) */
+@font-face {
+  font-family: 'Formata Condensed SC';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedSC.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 23. Formata Condensed Italic (400) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
+
+/* 24. Formata Bold (700) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 25. Formata Bold Italic (700) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 26. Formata Bold Condensed Italic (700) */
+@font-face {
+  font-family: 'Formata';
+  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-BoldCondensedItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: condensed;
+  font-display: swap;
+}
