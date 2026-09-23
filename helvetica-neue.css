@@ -1,513 +1,128 @@
-/* fonts.css for tyler-isaac/my-fonts @ main */
-
-/* ── FORMA FAMILY ── */
-
-/* 1. Forma Regular (400) */
-@font-face {
-  font-family: 'Forma';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaCon.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 2. Forma Medium Condensed (500) */
-@font-face {
-  font-family: 'Forma';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaMedCon.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 3. Forma Bold Condensed (700) */
-@font-face {
-  font-family: 'Forma';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaBolCon.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 4. Forma Ligature Condensed (400) */
-@font-face {
-  font-family: 'Forma';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/FormaLigCon.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-
-/* ── FORMATA FAMILY ── */
-
-/* 5. Formata Regular (400) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 6. Formata Regular SC (400) */
-@font-face {
-  font-family: 'Formata SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-RegularSC.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 7. Formata Light (300) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 8. Formata Light SC (300) */
-@font-face {
-  font-family: 'Formata Light SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightSC.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 9. Formata Light Condensed SC (300) */
-@font-face {
-  font-family: 'Formata Light Condensed SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCnSC.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 10. Formata Light Condensed Italic (300) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCondensedItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 11. Formata Light Italic (300) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 12. Formata Light Italic SC (300) */
-@font-face {
-  font-family: 'Formata Light Italic SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightItalicSC.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 13. Formata Light Condensed Italic SC (300) */
-@font-face {
-  font-family: 'Formata Light Condensed Italic SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-LightCnItalicSC.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 14. Formata Medium (500) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 15. Formata Medium Condensed (500) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-MediumCondensed.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 16. Formata Medium Italic (500) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-MediumItalic.otf') format('opentype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 17. Formata Italic (400) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Italic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 18. Formata Italic Expert (400) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-ItalicExpert.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 19. Formata Italic SC (400) */
-@font-face {
-  font-family: 'Formata Italic SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-ItalicSC.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 20. Formata Condensed Italic SC (400) */
-@font-face {
-  font-family: 'Formata Condensed Italic SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CnItalicSC.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 21. Formata Condensed Expert (400) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedExpert.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 22. Formata Condensed SC (400) */
-@font-face {
-  font-family: 'Formata Condensed SC';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedSC.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 23. Formata Condensed Italic (400) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-CondensedItalic.otf') format('opentype');
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* 24. Formata Bold (700) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* 25. Formata Bold Italic (700) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-BoldItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* 26. Formata Bold Condensed Italic (700) */
-@font-face {
-  font-family: 'Formata';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/Formata-BoldCondensedItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-  font-stretch: condensed;
-  font-display: swap;
-}
-
-/* ── HELVETICA NEUE FAMILY ── */
-
-/* Helvetica Neue Black */
+/* Helvetica Neue: standard faces plus additional variants. */
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueBlack.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Black Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueBlackItalic.otf') format('opentype');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Bold */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueBold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Bold Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueBoldItalic.otf') format('opentype');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Heavy */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueHeavy.otf') format('opentype');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Heavy Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueHeavyItalic.otf') format('opentype');
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueItalic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Light */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueLight.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Light Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueLightItalic.otf') format('opentype');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Medium */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueMedium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Medium Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueMediumItalic.otf') format('opentype');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Roman */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueRoman.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Thin */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueThin.otf') format('opentype');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Thin Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueThinItalic.otf') format('opentype');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Helvetica Neue Ultra Light */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueUltraLight.otf') format('opentype');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Helvetica Neue Ultra Light Italic */
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('https://cdn.jsdelivr.net/gh/tyler-isaac/my-fonts@main/HelveticaNeueUltraLightItalic.otf') format('opentype');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Gotham webfonts. Weight mapping follows style names; source metadata uses legacy weights. */
-/* Book and alternate Bold Italic are separate families to avoid duplicate face descriptors. */
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Thin.otf") format("opentype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Thin-Italic.otf") format("opentype");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Extra-Light.otf") format("opentype");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Extra-Light-Italic.otf") format("opentype");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Light.otf") format("opentype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Regular.otf") format("opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Italic.otf") format("opentype");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Medium.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Bold-Italic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Black.otf") format("opentype");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Gotham";
-  src: url("./Gotham/Gotham-Ultra.otf") format("opentype");
+  src: url('./HelveticaNeueBlack.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Gotham Book";
-  src: url("./Gotham/Gotham-Book.otf") format("opentype");
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueBlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueHeavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueHeavyItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueLightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueMedium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueMediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueRoman.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Gotham Bold Italic Alternate";
-  src: url("./Gotham/Gotham-ItalicBold.otf") format("opentype");
-  font-weight: 700;
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueThin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueUltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./HelveticaNeueUltraLightItalic.otf') format('opentype');
+  font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
